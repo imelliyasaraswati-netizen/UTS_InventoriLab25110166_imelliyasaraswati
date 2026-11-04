@@ -11,7 +11,7 @@ public class Koneksi {
     public static Connection getConnection() {
         if (koneksi == null) {
             try {
-                String url = "jdbc:mysql://localhost:3306/db_inventori";
+                String url = "jdbc:mysql://localhost:3307/db_inventori";
                 String user = "root";
                 String password = ""; // Sesuaikan dengan password MySQL kamu
                 
